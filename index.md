@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Formelsammlungen
+title: "TUM.EI: Learning"
 ---
-# Formelsammlungen
+## Vorlesungen ##
 
 Nützliche **Formelsammlungen**, **Skripte** und Sonstiges für das **Bachelor**- und **Master**-Studium der Elektrotechnik und Informationstechnik an der **TU München**.
 
-## Bachelor
+### Bachelor ###
 
 {: .table .table-striped}
 | Fach        | Source Code           | pdf  |
@@ -14,7 +14,7 @@ Nützliche **Formelsammlungen**, **Skripte** und Sonstiges für das **Bachelor**
 | Grundlagen elektrischer Maschinen | [Formelsammlung](https://github.com/MaKeAppDev/FS-GEM){: .btn .btn-sm .btn-primary} [Übung](https://github.com/MaKeAppDev/UE-GEM){: .btn .btn-sm .btn-default} | FS-GEM.pdf UE-GEM.zip |
 | Elektrische Kleinmaschinen | [Formelsammlung](https://github.com/MaKeAppDev/FS-EKM){: .btn .btn-sm .btn-primary} | FS-EKM.pdf |
 
-## Master
+### Master ###
 
 {: .table .table-striped}
 | Fach        | Source Code           | pdf  |
@@ -23,3 +23,8 @@ Nützliche **Formelsammlungen**, **Skripte** und Sonstiges für das **Bachelor**
 | Elektrische Maschinen | [Formelsammlung](https://github.com/MaKeAppDev/FS-EM){: .btn .btn-sm .btn-primary} | FS-EM.pdf |
 | Entwurf Elektrischer Maschinen | [Formelsammlung](https://github.com/MaKeAppDev/FS-EEM){: .btn .btn-sm .btn-primary} | FS-EEM.pdf |
 | Real Time Programming Languages | [Formelsammlung](https://github.com/MaKeAppDev/FS-RTPL){: .btn .btn-sm .btn-primary} [Assignment 1](https://bitbucket.org/rtpl/assignment_1/){: .btn .btn-sm .btn-success} [Assignment 2](https://bitbucket.org/rtpl/assignment_2/){: .btn .btn-sm .btn-success} | FS-RTPL.pdf |
+
+
+## Projekte ##
+
+*Inhalt folgt.*

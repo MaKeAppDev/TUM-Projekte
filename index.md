@@ -1,11 +1,14 @@
 ---
 layout: default
-title: Formelsammlungen LaTeX4Ei
+title: Formelsammlungen
 ---
-# Formelsammlungen LaTeX4Ei
+# Formelsammlungen
+
+Nützliche **Formelsammlungen**, **Skripte** und Sonstiges für das **Bachelor**- und **Master**-Studium der Elektrotechnik und Informationstechnik an der **TU München**.
 
 ## Bachelor
 
+{:.table .table-striped}
 | Fach        | Source Code           | pdf  |
 | ------------- | ------------- | ----- |
 | Grundlagen elektrischer Maschinen | [Formelsammlung](https://github.com/MaKeAppDev/FS-GEM), [Übung](https://github.com/MaKeAppDev/UE-GEM) | FS-GEM.pdf, UE-GEM.zip |
@@ -13,6 +16,7 @@ title: Formelsammlungen LaTeX4Ei
 
 ## Master
 
+{:.table .table-striped}
 | Fach        | Source Code           | pdf  |
 | ------------- | ------------- | ----- |
 | Numerische Methoden der Elektrotechnik | [Formelsammlung](https://github.com/MaKeAppDev/FS-NMdE), [Skript](https://github.com/MaKeAppDev/Skript-NMdE), [Matlab-HA](https://bitbucket.org/thetexteam/numerik-uebung/) | FS-NMdE.pdf, Skript-NMdE.pdf |

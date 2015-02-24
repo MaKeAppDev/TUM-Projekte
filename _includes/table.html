@@ -1,0 +1,25 @@
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Fach</th>
+      <th>Source Code</th>
+      <th>pdf</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for entry in include.data %}
+    <tr>
+      <td>{{ entry.title }}</td>
+      <td>
+      {% for source in entry.sources %}
+          <a href="{{ source.url }}" class="btn btn-sm btn-{{ source.type }}">{{ source.title }}</a>
+      {% endfor %}
+      </td>
+      <td>
+        <!-- insert pdf links here! -->
+        pdfs
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>

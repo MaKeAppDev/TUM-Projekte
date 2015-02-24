@@ -1,0 +1,14 @@
+- title: "Grundlagen elektrischer Maschinen"
+  sources:
+    - title: "Formelsammlung"
+      url: "https://github.com/MaKeAppDev/FS-GEM"
+      type: primary
+    - title: "Übung"
+      url: "https://github.com/MaKeAppDev/UE-GEM"
+      type: default
+
+- title: "Elektrische Kleinmaschinen"
+  sources:
+    - title: "Formelsammlung"
+      url: "https://github.com/MaKeAppDev/FS-EKM"
+      type: primary

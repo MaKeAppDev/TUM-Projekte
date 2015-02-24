@@ -1,0 +1,35 @@
+- title: "Numerische Methoden der Elektrotechnik"
+  sources:
+    - title: "Formelsammlung"
+      url: "https://github.com/MaKeAppDev/FS-NMdE"
+      type: primary
+    - title: "Skript"
+      url: "https://github.com/MaKeAppDev/Skript-NMdE"
+      type: default
+    - title: "Matlab-HA"
+      url: "https://bitbucket.org/thetexteam/numerik-uebung/"
+      type: success
+
+- title: "Elektrische Maschinen"
+  sources:
+    - title: "Formelsammlung"
+      url: "https://github.com/MaKeAppDev/FS-EM"
+      type: primary
+
+- title: "Entwurf Elektrischer Maschinen"
+  sources:
+    - title: "Formelsammlung"
+      url: "https://github.com/MaKeAppDev/FS-EEM"
+      type: primary
+
+- title: "Real Time Programming Languages"
+  sources:
+    - title: "Formelsammlung"
+      url: "https://github.com/MaKeAppDev/FS-RTPL"
+      type: primary
+    - title: "Assignment 1"
+      url: "https://bitbucket.org/rtpl/assignment_1/"
+      type: success
+    - title: "Assignment 2"
+      url: "https://bitbucket.org/rtpl/assignment_2/"
+      type: success

@@ -1,0 +1,70 @@
+- title: "Grundkurs C++"
+  links:
+    - title: "Projektseite"
+      url: "http://www.ldv.ei.tum.de/lehre/grundkurs-c/"
+      type: default
+  repos:
+    - title: "Calculator"
+      url: "https://bitbucket.org/grundkurscpp/calculator"
+      type: primary
+    - title: "Bomberman"
+      url: "https://bitbucket.org/grundkurscpp/game"
+      type: primary
+
+- title: "Leistungskurs C++"
+  links:
+    - title: "Projektseite"
+      url: "http://www.ldv.ei.tum.de/lehre/leistungskurs-c/"
+      type: default
+    - title: "Video 1"
+      url: "https://www.youtube.com/watch?v=2-74lNZzx8g"
+      type: success
+    - title: "Video 2"
+      url: "https://www.youtube.com/watch?v=fTpH9mxKjkM"
+      type: success
+  repos:
+    - title: "RoboHockey: Marvin"
+      url: "https://bitbucket.org/leistungskursc/robohockey"
+      type: primary
+
+- title: "RoboSoccer Laboratory (C++)"
+  links:
+    - title: "Projektseite"
+      url: "http://www.rcs.ei.tum.de/en/Lehre/Labs/pr_rs/"
+      type: default
+    - title: "Video: Demo"
+      url: "https://www.youtube.com/watch?v=ikmT7Obq31E"
+      type: success
+  repos:
+    - title: "Player"
+      url: "https://bitbucket.org/robosoccer/robosoccer"
+      type: primary
+    - title: "Debug-GUI"
+      url: "https://bitbucket.org/robosoccer/robosoccer-gui"
+      type: primary
+
+- title: "Computer Vision (Matlab)"
+  links:
+    - title: "Projektseite"
+      url: "http://www.ldv.ei.tum.de/lehre/computer-vision/"
+      type: default
+  repos:
+    - title: "Hausaufgaben"
+      url: "https://bitbucket.org/computervision/computer-vision"
+      type: primary
+    - title: "Kurs-Zusammenfassung"
+      url: "https://bitbucket.org/computervision/computer-vision-summary"
+      type: primary
+
+- title: "Projektpraktikum Matlab"
+  links:
+    - title: "Projektseite"
+      url: "http://www.ldv.ei.tum.de/lehre/projektpraktikum-matlab/"
+      type: default
+  repos:
+    - title: "Hausaufgaben"
+      url: "https://bitbucket.org/matlabpraktikum/matlab-ha"
+      type: primary
+    - title: "Othello"
+      url: "https://bitbucket.org/matlabpraktikum/othello"
+      type: primary

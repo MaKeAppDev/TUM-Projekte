@@ -1,9 +1,9 @@
 <table class="table table-striped">
   <thead>
     <tr>
-      <th>Fach</th>
+      <th>Vorlesung</th>
       <th>Source Code</th>
-      <th>pdf</th>
+      <th>Download</th>
     </tr>
   </thead>
   <tbody>
@@ -11,9 +11,11 @@
     <tr>
       <td>{{ entry.title }}</td>
       <td>
-      {% for source in entry.sources %}
+        <!-- <div class="btn-group"> -->
+        {% for source in entry.sources %}
           <a href="{{ source.url }}" class="btn btn-sm btn-{{ source.type }}">{{ source.title }}</a>
-      {% endfor %}
+        {% endfor %}
+        <!-- </div> -->
       </td>
       <td>
         <!-- insert pdf links here! -->

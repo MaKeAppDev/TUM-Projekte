@@ -7,7 +7,7 @@
     - title: "Calculator"
       url: "https://bitbucket.org/grundkurscpp/calculator"
       type: primary
-    - title: "Bomberman"
+    - title: "Ultimate Bomberman"
       url: "https://bitbucket.org/grundkurscpp/game"
       type: primary
 
@@ -65,6 +65,6 @@
     - title: "Hausaufgaben"
       url: "https://bitbucket.org/matlabpraktikum/matlab-ha"
       type: primary
-    - title: "Othello"
+    - title: "Othello: GLaDOS"
       url: "https://bitbucket.org/matlabpraktikum/othello"
       type: primary

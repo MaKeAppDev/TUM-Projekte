@@ -20,7 +20,7 @@
       <td>
         <!-- <div class="btn-group"> -->
         {% for download in entry.downloads %}
-          <a href="{{ download.pdf }}" class="btn btn-sm btn-{{ download.type }}">{{ download.title }}</a>
+          <a href="{{ download.url }}" class="btn btn-sm btn-{{ download.type }}">{{ download.title }}</a>
         {% endfor %}
         <!-- </div> -->
       </td>

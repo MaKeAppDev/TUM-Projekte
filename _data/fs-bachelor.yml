@@ -6,9 +6,20 @@
     - title: "Übung"
       url: "https://github.com/MaKeAppDev/UE-GEM"
       type: default
+  downloads:
+    - title: "Formelsammlung.pdf"
+      url: "http://www.latex4ei.de/downloads/gelm.pdf"
+      type: danger
+    - title: "Übung.zip"
+      url: ""
+      type: warning      
 
 - title: "Elektrische Kleinmaschinen"
   sources:
     - title: "Formelsammlung"
       url: "https://github.com/MaKeAppDev/FS-EKM"
       type: primary
+  downloads:
+    - title: "Formelsammlung.pdf"
+      url: "http://www.latex4ei.de/downloads/EKM_FS.pdf"
+      type: danger

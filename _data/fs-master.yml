@@ -9,18 +9,33 @@
     - title: "Matlab-HA"
       url: "https://bitbucket.org/thetexteam/numerik-uebung/"
       type: success
+  downloads:
+    - title: "Formelsammlung.pdf"
+      url: "http://www.latex4ei.de/downloads/Numerik.pdf"
+      type: danger
+    - title: "Skript.pdf"
+      url: ""
+      type: danger
 
 - title: "Elektrische Maschinen"
   sources:
     - title: "Formelsammlung"
       url: "https://github.com/MaKeAppDev/FS-EM"
       type: primary
+  downloads:
+    - title: "Formelsammlung.pdf"
+      url: ""
+      type: danger
 
 - title: "Entwurf Elektrischer Maschinen"
   sources:
     - title: "Formelsammlung"
       url: "https://github.com/MaKeAppDev/FS-EEM"
       type: primary
+  downloads:
+    - title: "Formelsammlung.pdf"
+      url: "http://www.latex4ei.de/downloads/EntwurfElektrischerMaschinen.pdf"
+      type: danger
 
 - title: "Real Time Programming Languages"
   sources:
@@ -33,3 +48,7 @@
     - title: "Assignment 2"
       url: "https://bitbucket.org/rtpl/assignment_2/"
       type: success
+  downloads:
+    - title: "Formelsammlung.pdf"
+      url: "http://www.latex4ei.de/downloads/RealtimeProgrammingLanguages.pdf"
+      type: danger

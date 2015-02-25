@@ -18,8 +18,11 @@
         <!-- </div> -->
       </td>
       <td>
-        <!-- insert pdf links here! -->
-        pdfs
+        <!-- <div class="btn-group"> -->
+        {% for download in entry.downloads %}
+          <a href="{{ download.pdf }}" class="btn btn-sm btn-{{ download.type }}">{{ download.title }}</a>
+        {% endfor %}
+        <!-- </div> -->
       </td>
     </tr>
     {% endfor %}

@@ -68,3 +68,34 @@
     - title: "Othello: GLaDOS"
       url: "https://bitbucket.org/matlabpraktikum/othello"
       type: primary
+
+- title: "Projektpraktikum Smartcard"
+  links:
+    - title: "Projektseite"
+      url: "http://www.sec.ei.tum.de/lehrveranstaltungen/smartcard-projektpraktikum/"
+      type: default
+    - title: "Midterm Presentation"
+      url: "https://drive.google.com/open?id=1VbI6zYR1Zw1cxZwAvoaD5EpcUsMwCi6UGRc40TSTU_s"
+      type: warning
+    - title: "Final Presentation"
+      url: "https://drive.google.com/open?id=1PG6_8N2Nyukh9Azj-lOJMYQh3elwzVwG-bTrX8lNbBo"
+      type: warning
+
+- title: "Projektpraktikum Multicopter"
+  links:
+    - title: "Projektseite"
+      url: "http://www.rcs.ei.tum.de/de/Lehre/Praktika/pp_kees/"
+      type: default
+
+- title: "Forschungspraxis"
+  links:
+    - title: "Projektplan"
+      url: ""
+      type: danger
+    - title: "Bericht"
+      url: ""
+      type: danger
+  repos:
+    - title: "Redpin"
+      url: "https://github.com/MaKeAppDev/Redpin"
+      type: primary

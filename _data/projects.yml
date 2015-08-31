@@ -48,6 +48,9 @@
     - title: "Projektseite"
       url: "http://www.ldv.ei.tum.de/lehre/computer-vision/"
       type: default
+    - title: "Zusammenfassung.pdf"
+      url: "https://lootsch.cetus.uberspace.de/latex/Summary-CVS.pdf"
+      type: danger
   repos:
     - title: "Hausaufgaben"
       url: "https://bitbucket.org/computervision/computer-vision"
@@ -74,28 +77,48 @@
     - title: "Projektseite"
       url: "http://www.sec.ei.tum.de/lehrveranstaltungen/smartcard-projektpraktikum/"
       type: default
-    - title: "Midterm Presentation"
+    - title: "Midterm Pres"
       url: "https://drive.google.com/open?id=1VbI6zYR1Zw1cxZwAvoaD5EpcUsMwCi6UGRc40TSTU_s"
       type: warning
-    - title: "Final Presentation"
+    - title: "Final Pres"
       url: "https://drive.google.com/open?id=1PG6_8N2Nyukh9Azj-lOJMYQh3elwzVwG-bTrX8lNbBo"
       type: warning
+  repos:
+    - title: "Trac Wiki & SVN"
+      url: "https://tueisec-stusvn.sec.ei.tum.de/trac/LabSC1_SoSe15/wiki"
+      type: primary
 
 - title: "Projektpraktikum Multicopter"
   links:
     - title: "Projektseite"
       url: "http://www.rcs.ei.tum.de/de/Lehre/Praktika/pp_kees/"
       type: default
+    - title: "Kickoff Pres"
+      url: "https://docs.google.com/presentation/d/1AK5ty2TPzvStNGLsZ4rtpKtN0kp3FBfVKu0ghJ_K3ZI/edit?usp=sharing"
+      type: warning
+    - title: "Review Pres"
+      url: "https://docs.google.com/presentation/d/1UdJJ6TXVKGSbV7QU6X4URpeco2vVSwnQLmgHCFuUB5w/edit?usp=sharing"
+      type: warning
+    - title: "Final Pres"
+      url: "https://docs.google.com/presentation/d/1_0ES-CLoaErtRdRFsvCqIczc5dZnu8XIdby8-s7c-po/edit?usp=sharing"
+      type: warning
+  repos:
+    - title: "Multicopter: KMS"
+      url: "https://gitlab.com/kevmeyer/PP-Multicopter"
+      type: primary
 
 - title: "Forschungspraxis"
   links:
+    - title: "Projektseite"
+      url: "https://www.ldv.ei.tum.de/studentische-arbeiten/forschungspraxis/"
+      type: default
     - title: "Projektplan"
-      url: ""
+      url: "https://lootsch.cetus.uberspace.de/latex/fp/projectplan.pdf"
       type: danger
     - title: "Bericht"
-      url: ""
+      url: "https://lootsch.cetus.uberspace.de/latex/fp/report.pdf"
       type: danger
   repos:
-    - title: "Redpin"
+    - title: "Redpin-Fork"
       url: "https://github.com/MaKeAppDev/Redpin"
       type: primary

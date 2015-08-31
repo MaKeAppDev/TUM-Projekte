@@ -8,11 +8,11 @@
       type: default
   downloads:
     - title: "Formelsammlung.pdf"
-      url: "http://www.latex4ei.de/downloads/gelm.pdf"
+      url: "https://lootsch.cetus.uberspace.de/latex/FS-GEM.pdf"
       type: danger
     - title: "Übung.zip"
-      url: ""
-      type: warning      
+      url: "https://lootsch.cetus.uberspace.de/latex/UE-GEM.zip"
+      type: warning
 
 - title: "Elektrische Kleinmaschinen"
   sources:
@@ -21,5 +21,5 @@
       type: primary
   downloads:
     - title: "Formelsammlung.pdf"
-      url: "http://www.latex4ei.de/downloads/EKM_FS.pdf"
+      url: "https://lootsch.cetus.uberspace.de/latex/FS-EKM.pdf"
       type: danger

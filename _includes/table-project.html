@@ -13,14 +13,14 @@
       <td>
         <!-- <div class="btn-group"> -->
         {% for link in entry.links %}
-          <a href="{{ link.url }}" class="btn btn-sm btn-{{ link.type }}">{{ link.title }}</a>
+          <a href="{{ link.url }}" class="btn btn-sm btn-{{ link.type }}" target="_blank">{{ link.title }}</a>
         {% endfor %}
         <!-- </div> -->
       </td>
       <td>
         <!-- <div class="btn-group"> -->
         {% for repo in entry.repos %}
-          <a href="{{ repo.url }}" class="btn btn-sm btn-{{ repo.type }}">{{ repo.title }}</a>
+          <a href="{{ repo.url }}" class="btn btn-sm btn-{{ repo.type }}" target="_blank">{{ repo.title }}</a>
         {% endfor %}
         <!-- </div> -->
       </td>

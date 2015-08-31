@@ -13,14 +13,14 @@
       <td>
         <!-- <div class="btn-group"> -->
         {% for source in entry.sources %}
-          <a href="{{ source.url }}" class="btn btn-sm btn-{{ source.type }}">{{ source.title }}</a>
+          <a href="{{ source.url }}" class="btn btn-sm btn-{{ source.type }}" target="_blank">{{ source.title }}</a>
         {% endfor %}
         <!-- </div> -->
       </td>
       <td>
         <!-- <div class="btn-group"> -->
         {% for download in entry.downloads %}
-          <a href="{{ download.url }}" class="btn btn-sm btn-{{ download.type }}">{{ download.title }}</a>
+          <a href="{{ download.url }}" class="btn btn-sm btn-{{ download.type }}" target="_blank">{{ download.title }}</a>
         {% endfor %}
         <!-- </div> -->
       </td>

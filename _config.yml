@@ -2,6 +2,3 @@ name: TUM Projekte
 baseurl: /TUM-Projekte
 
 gems: [bootstrap, autoprefixer-rails, jekyll-assets]
-exclude:
-  - Gemfile
-  - Gemfile.lock

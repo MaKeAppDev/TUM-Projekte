@@ -5,7 +5,7 @@
       type: primary
     - title: "Übung"
       url: "https://github.com/MaKeAppDev/UE-GEM"
-      type: default
+      type: secondary
   downloads:
     - title: "Formelsammlung.pdf"
       url: "https://lootsch.cetus.uberspace.de/latex/FS-GEM.pdf"

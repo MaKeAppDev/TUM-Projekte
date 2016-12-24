@@ -5,7 +5,7 @@
       type: primary
     - title: "Skript"
       url: "https://github.com/MaKeAppDev/Skript-NMdE"
-      type: default
+      type: secondary
     - title: "Matlab-HA"
       url: "https://bitbucket.org/thetexteam/numerik-uebung/"
       type: success

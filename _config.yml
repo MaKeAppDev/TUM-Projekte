@@ -1,4 +1,2 @@
 name: TUM Projekte
 baseurl: /TUM-Projekte
-
-gems: [bootstrap, autoprefixer-rails, jekyll-assets]

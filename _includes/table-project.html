@@ -1,30 +1,30 @@
 <table class="table table-striped">
-  <thead>
-    <tr>
-      <th>Vorlesung</th>
-      <th>Infos</th>
-      <th>Source Code</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% for entry in site.data.projects %}
-    <tr>
-      <td>{{ entry.title }}</td>
-      <td>
-        <!-- <div class="btn-group"> -->
-        {% for link in entry.links %}
-          <a href="{{ link.url }}" class="btn btn-sm btn-{{ link.type }}" target="_blank">{{ link.title }}</a>
+    <thead>
+        <tr>
+            <th>Vorlesung</th>
+            <th>Infos</th>
+            <th>Source Code</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for entry in site.data.projects %}
+        <tr>
+            <td class="align-middle">{{ entry.title }}</td>
+            <td>
+                <!-- <div class="btn-group"> -->
+                {% for link in entry.links %}
+                <a href="{{ link.url }}" class="btn btn btn-{{ link.type }}" target="_blank">{{ link.title }}</a>
+                {% endfor %}
+                <!-- </div> -->
+            </td>
+            <td>
+                <!-- <div class="btn-group"> -->
+                {% for repo in entry.repos %}
+                <a href="{{ repo.url }}" class="btn btn btn-{{ repo.type }}" target="_blank">{{ repo.title }}</a>
+                {% endfor %}
+                <!-- </div> -->
+            </td>
+        </tr>
         {% endfor %}
-        <!-- </div> -->
-      </td>
-      <td>
-        <!-- <div class="btn-group"> -->
-        {% for repo in entry.repos %}
-          <a href="{{ repo.url }}" class="btn btn-sm btn-{{ repo.type }}" target="_blank">{{ repo.title }}</a>
-        {% endfor %}
-        <!-- </div> -->
-      </td>
-    </tr>
-    {% endfor %}
-  </tbody>
+    </tbody>
 </table>

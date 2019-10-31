@@ -10,6 +10,7 @@ apt:
 
 script:
   - make
+  - make test
 
 # branch whitelist, only for GitHub Pages
 branches:

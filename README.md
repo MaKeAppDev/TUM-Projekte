@@ -13,6 +13,9 @@ make install
 # One time build
 make
 
+# Test with html-proofer
+make test
+
 # Build and run locally
 make run
 ```

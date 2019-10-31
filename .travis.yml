@@ -11,6 +11,12 @@ apt:
 script:
   - make
 
+# branch whitelist, only for GitHub Pages
+branches:
+  only:
+  - gh-pages     # test the gh-pages branch
+  - /pages-(.*)/ # test every branch which starts with "pages-"
+
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer

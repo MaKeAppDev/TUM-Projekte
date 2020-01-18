@@ -11,10 +11,10 @@
       type: success
   downloads:
     - title: "Formelsammlung.pdf"
-      url: "https://lootsch.cetus.uberspace.de/latex/FS-NMdE.pdf"
+      url: "https://github.com/MaKeAppDev/FS-NMdE/raw/gh-pages/formelsammlung.pdf"
       type: danger
     - title: "Skript.pdf"
-      url: "https://lootsch.cetus.uberspace.de/latex/Skript-NMdE.pdf"
+      url: "https://github.com/MaKeAppDev/Skript-NMdE/raw/gh-pages/skript.pdf"
       type: danger
 
 - title: "Elektrische Maschinen"
@@ -24,7 +24,7 @@
       type: primary
   downloads:
     - title: "Formelsammlung.pdf"
-      url: "https://lootsch.cetus.uberspace.de/latex/FS-EM.pdf"
+      url: "https://github.com/MaKeAppDev/FS-EM/raw/gh-pages/formelsammlung.pdf"
       type: danger
 
 - title: "Entwurf Elektrischer Maschinen"
@@ -34,7 +34,7 @@
       type: primary
   downloads:
     - title: "Formelsammlung.pdf"
-      url: "https://lootsch.cetus.uberspace.de/latex/FS-EEM.pdf"
+      url: "https://github.com/MaKeAppDev/FS-EEM/raw/gh-pages/formelsammlung.pdf"
       type: danger
 
 - title: "Real Time Programming Languages"
@@ -50,5 +50,5 @@
       type: success
   downloads:
     - title: "Formelsammlung.pdf"
-      url: "https://lootsch.cetus.uberspace.de/latex/FS-RTPL.pdf"
+      url: "https://github.com/MaKeAppDev/FS-RTPL/raw/gh-pages/formelsammlung.pdf"
       type: danger

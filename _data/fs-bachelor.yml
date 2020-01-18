@@ -8,10 +8,10 @@
       type: secondary
   downloads:
     - title: "Formelsammlung.pdf"
-      url: "https://lootsch.cetus.uberspace.de/latex/FS-GEM.pdf"
+      url: "https://github.com/MaKeAppDev/FS-GEM/raw/gh-pages/formelsammlung.pdf"
       type: danger
     - title: "Übung.zip"
-      url: "https://lootsch.cetus.uberspace.de/latex/UE-GEM.zip"
+      url: "https://github.com/MaKeAppDev/FS-GEM/archive/gh-pages.zip"
       type: warning
 
 - title: "Elektrische Kleinmaschinen"
@@ -21,5 +21,5 @@
       type: primary
   downloads:
     - title: "Formelsammlung.pdf"
-      url: "https://lootsch.cetus.uberspace.de/latex/FS-EKM.pdf"
+      url: "https://github.com/MaKeAppDev/FS-EKM/raw/gh-pages/formelsammlung.pdf"
       type: danger

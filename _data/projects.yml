@@ -49,7 +49,7 @@
       url: "http://www.ldv.ei.tum.de/lehre/computer-vision/"
       type: secondary
     - title: "Zusammenfassung.pdf"
-      url: "https://lootsch.cetus.uberspace.de/latex/Summary-CVS.pdf"
+      url: "https://bitbucket.org/computervision/computer-vision-summary/downloads/Summary-CVS.pdf"
       type: danger
   repos:
     - title: "Hausaufgaben"
@@ -113,10 +113,10 @@
       url: "https://www.ldv.ei.tum.de/studentische-arbeiten/forschungspraxis/"
       type: secondary
     - title: "Projektplan"
-      url: "https://lootsch.cetus.uberspace.de/latex/fp/projectplan.pdf"
+      url: "https://bitbucket.org/thetexteam/forschungspraxis/downloads/projectplan.pdf"
       type: danger
     - title: "Bericht"
-      url: "https://lootsch.cetus.uberspace.de/latex/fp/report.pdf"
+      url: "https://bitbucket.org/thetexteam/forschungspraxis/downloads/report.pdf"
       type: danger
   repos:
     - title: "Redpin-Fork"

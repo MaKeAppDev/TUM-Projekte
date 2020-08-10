@@ -6,7 +6,7 @@ All Downloads and Sources: [makeappdev.github.io/TUM-Projekte/](https://makeappd
 
 ## Setup & Build
 
-```
+```shell
 # Install
 make install
 
@@ -18,4 +18,10 @@ make test
 
 # Build and run locally
 make run
+```
+
+or use our [Dockerfile](docker/) container
+
+```shell
+docker-compose up       # Now you can access the website at localhost:4000/TUM-Projekte/
 ```

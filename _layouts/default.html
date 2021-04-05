@@ -1,19 +1,20 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="{{ page.lang | default: site.lang | default: " en" }}">
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
+<body>
     <!-- fixed navigation bar -->
     <nav class="navbar navbar-dark shadow bg-dark sticky-top navbar-expand-sm">
-      <div class="container my-1">
-        <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.name }}</a>
-      </div>
+        <div class="container my-1">
+            <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.name }}</a>
+        </div>
     </nav>
 
     <!-- content container -->
     <div class="container mt-5">
-      {{ content }}
+        {{ content }}
     </div>
-  </body>
+</body>
+
 </html>

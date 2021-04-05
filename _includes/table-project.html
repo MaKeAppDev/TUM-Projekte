@@ -11,18 +11,18 @@
         <tr>
             <td class="align-middle">{{ entry.title }}</td>
             <td>
-                <!-- <div class="btn-group"> -->
-                {% for link in entry.links %}
-                <a href="{{ link.url }}" class="btn btn btn-{{ link.type }}" target="_blank">{{ link.title }}</a>
-                {% endfor %}
-                <!-- </div> -->
+                <div class="btn-group">
+                    {% for link in entry.links %}
+                    <a href="{{ link.url }}" class="btn btn btn-{{ link.type }}" target="_blank">{{ link.title }}</a>
+                    {% endfor %}
+                </div>
             </td>
             <td>
-                <!-- <div class="btn-group"> -->
-                {% for repo in entry.repos %}
-                <a href="{{ repo.url }}" class="btn btn btn-{{ repo.type }}" target="_blank">{{ repo.title }}</a>
-                {% endfor %}
-                <!-- </div> -->
+                <div class="btn-group">
+                    {% for repo in entry.repos %}
+                    <a href="{{ repo.url }}" class="btn btn btn-{{ repo.type }}" target="_blank">{{ repo.title }}</a>
+                    {% endfor %}
+                </div>
             </td>
         </tr>
         {% endfor %}

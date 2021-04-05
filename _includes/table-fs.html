@@ -11,19 +11,21 @@
         <tr>
             <td class="align-middle">{{ entry.title }}</td>
             <td>
-                <!-- <div class="btn-group"> -->
-                {% for source in entry.sources %}
-                <a href="{{ source.url }}" class="btn btn btn-{{ source.type }}" target="_blank">{{ source.title }}</a>
-                {% endfor %}
-                <!-- </div> -->
+                <div class="btn-group">
+                    {% for source in entry.sources %}
+                    <a href="{{ source.url }}" class="btn btn btn-{{ source.type }}" target="_blank">{{ source.title
+                        }}</a>
+                    {% endfor %}
+                </div>
             </td>
             <td>
-                <!-- <div class="btn-group"> -->
-                {% for download in entry.downloads %}
-                <a href="{{ download.url }}" class="btn btn btn-{{ download.type }}"
-                    target="_blank">{{ download.title }}</a>
-                {% endfor %}
-                <!-- </div> -->
+                <div class="btn-group">
+                    {% for download in entry.downloads %}
+                    <a href="{{ download.url }}" class="btn btn btn-{{ download.type }}" target="_blank">{{
+                        download.title
+                        }}</a>
+                    {% endfor %}
+                </div>
             </td>
         </tr>
         {% endfor %}

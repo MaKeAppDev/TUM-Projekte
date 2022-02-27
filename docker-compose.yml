@@ -1,9 +1,11 @@
 version: '3'
 services:
   tum_projects:
-    build: .
+    build:
+      context: ./
+      dockerfile: docker/Dockerfile
     volumes:
-      - ..:/srv/jekyll
+      - .:/srv/jekyll
     environment:
       JEKYLL_ENV: production
     ports:

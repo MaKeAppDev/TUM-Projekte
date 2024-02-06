@@ -1,4 +1,4 @@
-FROM ruby:2.7
+FROM ruby:3.2.3
 
 ENV JEKYLL_VAR_DIR=/var/jekyll
 ENV JEKYLL_DATA_DIR=/srv/jekyll
